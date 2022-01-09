@@ -1,0 +1,25 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: readingisgood
+
+security:
+  jwt:
+    token:
+      secret-key: secret-key
+      expire-length: 30000000
+
+mongo-db:
+  url: mongodb://10.123.0.102:27017/?readPreference=primary&appname=MongoDB%20Compass&directConnection=true&ssl=false
+
+springdoc:
+  swagger-ui:
+    disable-swagger-default-url: true
+    display-request-duration: true
+    display-operation-id: true
+    enabled: true
+  api-docs:
+    path: /api-docs
+    enabled: true

@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: readingisgood
+  data:
+    mongodb:
+      host: 10.123.0.102
+      port: 27017
+      database: mongodb
+      auto-index-creation: false
+
+#mongo-db:
+#  url: mongodb://10.123.0.102:27017/?readPreference=primary&appname=MongoDB%20Compass&directConnection=true&ssl=false
+
+
+
