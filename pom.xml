@@ -15,7 +15,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>readingisgood</name>
 
-  <description>Getir Case Project: Reading is Good</description>
+  <description>Reading is Good</description>
 
   <properties>
     <java.version>11</java.version>
