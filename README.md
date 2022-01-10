@@ -5,18 +5,31 @@ Tech Definition
 In this project the Technologies were used which is listed below;
 
 •	Java 11
+
 •	Springboot 
+
 •	MongoDb 
+
 •	Map Struct for mapping operations(Entity to DTO, DTO to Entity)
+
 •	Lombok
+
 •	Maven
+
 •	Spring security and JWT token
+
 •	Validations
+
 •	Mockito and embedded MongoDb for unit and integration testing
+
 •	Restful endpoints
+
 •	Resouce bundle for language support 
+
 •	Spring Data AuditorAware Implementation for Audit operations
+
 •	Jacoco for code covarege report
+
 •	Swagger for API Specification 
 
 Project Design
@@ -31,10 +44,17 @@ Application rest APIS are all secured. Security implementation has been done by 
 For easy testing of APIS, swagger has been added to the project. In the below section there will be list of steps how to run the project and testing it;
 
 •	Clone the project from this github link: https://github.com/ilkertpz/readingisgood.git
+
 •	After clone the project, run mvn clean install command
+
 •	In resource package there will be MongoDb url. Please Configure here with your own MongoDb server url path
+
 •	Run the Application.java class
+
 •	The project will run on 8080 port and swagger ready to start
+
 •	For using swagger, please use this url: http://localhost:8080/swagger-ui/index.html#
+
 •	After displaying swagger UI, please find sign-up API in Customer-Controller section and create a customer. 
+
 •	After Customer creation, API will return a bearer token as a response and this token can be authorized to swagger by using authorization button at the above of the all section. While authorizing, format must be as Bearer “token-info”
