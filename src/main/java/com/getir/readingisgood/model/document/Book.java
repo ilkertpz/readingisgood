@@ -26,7 +26,7 @@ public class Book extends AbstractAuditableDocument {
 
   private Integer stockAmount;
 
-  //Added for optimistic lock. Wİth te same version number Book document can not be updated.
+  //Added for optimistic lock. With the same version number Book document can not be updated.
   //For the failure of the update operations spring-retry may be implemented
   @Version
   private long version;
