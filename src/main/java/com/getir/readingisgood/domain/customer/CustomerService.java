@@ -55,12 +55,6 @@ public class CustomerService {
     return getToken(customer);
   }
 
-  /**
-   * does not work properly
-   * @param page
-   * @param size
-   * @return
-   */
   @Transactional(readOnly = true)
   public Page<OrderDTO> getCustomerOrdersWithPaging(Integer page, Integer size) {
     int start = page != null ? page : 0;
